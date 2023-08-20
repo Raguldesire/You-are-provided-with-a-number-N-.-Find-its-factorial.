@@ -1,0 +1,5 @@
+n=int(input())            #Getting integer as input
+fac=1                     #Normally factorial starts from 1 if its 0,the factorial of 0 is 1
+for i in range(1,n+1):    #Using loop here
+  fac=fac*i               #Getting factorial values EX: factorial of 2=2*1,factorial of 3=3*2*1
+print(fac,end='')
